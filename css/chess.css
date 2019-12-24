@@ -1,0 +1,15 @@
+body{
+	background-color:white;
+}
+.main{
+	height:630px;
+	width:600px;
+	border:1px solid black;
+	margin-left:10px;
+}
+.r1{
+	height:12.23%;
+	width:12.16%;
+	border:1px solid black;
+	float:left;
+}

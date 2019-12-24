@@ -1,0 +1,105 @@
+body{
+	background-color:white;
+	margin:0px;
+	padding:0px;
+	overflow-x:hidden;
+}
+.main{
+	height:750px;
+	width:100%;
+	background-color:RGB(233,235,238);
+}
+.head{
+	height:90px;
+	width:100%;
+	background-color:RGB(90,110,180);
+	border-radius:5px;
+}
+h1{
+	position:relative;
+	top:30px;
+	left:150px;
+}
+
+.h1{
+	position:relative;
+	left:800px;
+}
+input[type="email"]{
+border:1px solid black;
+	height:20px;
+	float:left;
+	position:relative;
+	bottom:55px;
+	border-radius:5px;
+}
+input[type="password"] {
+	border:1px solid black;
+	height:20px;
+	float:left;
+	margin-left:50px;
+	position:relative;
+	bottom:80px;
+	border-radius:5px;
+}	
+
+input[type="submit"]{
+	float:left;
+	margin-left:30px;
+	position:relative;
+	bottom:78px;
+	height:25px;
+    box-shadow:5px 5px black;
+	}
+.text{
+	height:700px;
+	width:650px;
+	position:absolute;
+	right:0px;
+}	
+a:link{
+			border:2px solid green;
+			padding:3px 25px;
+			text-decoration:none;
+			background-color:green;
+			border-radius:10px;
+			color:white;
+			font-size:30px;
+			}
+input[type="text"]{
+	height:30px;
+	width:195px;
+	border-radius:5px;
+	position:relative;
+	bottom:30px;
+	padding-left:10px;
+}
+input[type="email or number"]{
+	height:30px;
+	width:405px;
+	border-radius:5px;
+	position:relative;
+	bottom:20px;
+	padding-left:10px;
+}
+input[type="new password"]{
+	height:30px;
+	width:405px;
+	border-radius:5px;
+	position:relative;
+	bottom:10px;
+	padding-left:10px;
+}
+input[type="date"]{
+	height:30px;
+	width:190px;
+	border-radius:5px;
+	position:relative;
+	bottom:50px;
+	padding-left:10px;
+}
+input[type="radio"]{
+	position:relative;
+	bottom:110px;
+	padding-left:10px;
+}

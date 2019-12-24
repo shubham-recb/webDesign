@@ -1,0 +1,28 @@
+p{
+				border:2px dashed red;
+				width:500px;
+				height:100px;
+		}
+		.intro{
+			border:2px dashed blue;
+			height:200px;
+			width:600px;
+			color:white;
+			font-size:30px;
+			font-family:cursive;
+			text-decoration:underline;
+			text-align:center;
+			text-transform:lowercase;
+			line-height:50px;
+			word-spacing:15px;
+			letter-spacing:10px;
+			
+		}
+		#alok{
+			border:5px dashed cyan;
+			height:300px;
+			width:800px;
+		}
+		body{
+			background-color:skyblue;
+		}
