@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>function3</title>
+	<script>
+		function square(num)
+		{
+			return num*num;
+		}
+		function getArea()
+		{
+			var radius=document.getElementById("radius").value;
+			var area=3.14*square(radius);
+			document.getElementById("result").innerHTML=area;
+		}
+    </script>
+	</head>
+	<body>
+    radius:
+		<input type="text" required="required"  id="radius"/></br></br></br>
+		<input type="button" onclick="getArea()" value="login"/>
+		<div id="result" style="border:2px solid red; height:25px; width:50px; background-color:cyan;"></div>
+	</body>
+</html>

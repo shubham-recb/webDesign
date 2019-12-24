@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>application form</title>
+		<style>
+			div{
+				height:500px;
+				width:700px;
+				border:5px solid blue;
+				margin-left:200px;
+				border-radius:10px 100px;
+				background-color:cyan;
+				text-align:center;
+				padding-top:100px;
+			}
+			input[type=password],[type=text],[type=number],[type=radio],[type=date]{
+				border-radius:5px;
+				height:30px;
+				width:200px;
+			}
+			input[type=submit]{
+				height:50px;
+				width:100px;
+				background-color:blue;
+				color:red;
+			}
+			input[type= password],[type=text],[type=number],[type=radio],[type=date]:focous{
+				border:5px  red;
+			}
+			
+		</style>
+	</head>
+	<body>
+	<div><b><label>Name:</label></b>
+	<input type="text" name="candidate name" required="required" placeholder="ENTER YOUR NAME"></br></br>
+	<b><label>Father's Name:</label></b>
+	<input type="text" name="candidate name" required="required" placeholder="ENTER YOUR FATHER NAME"></br></br>
+	<B><label>GENDER:</label></B>
+	<INPUT TYPE="radio" NAME="GENDER" VALUE="MALE" required="required">MALE
+	<INPUT TYPE="radio" NAME="GENDER" VALUE="FEMALE" required="required">FEMALE</br></br>
+	<B><label>D.O.B.:</label></B>
+	<INPUT TYPE="date" required="required"></br></br>
+	<B><label>MOBILE NO.:</label></B>
+	<INPUT TYPE="number" REQUIRED="REQUIRED" PLACEHOLDER="ENTER YPUR MO.NO."/></br></br>
+	<B><label>EMAIL ID:</label></B>
+	<INPUT TYPE="email" REQUIRED="REQUIRED" PLACEHOLDER="ENTER YPUR EMAIL ID"/></br></br>
+	<B><label>ADHAR NO.</label></B>
+	<INPUT TYPE="number" required="required" placeholder="ENTER YOUR ADHAR NO."/></br></br>
+	<input type="submit" value="login"/>
+	</div>
+	</body>
+</html>
